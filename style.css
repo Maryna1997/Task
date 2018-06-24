@@ -1,0 +1,86 @@
+table{
+	border-color:#00BFFF;
+}
+td{
+	width:50px;
+	height:50px;
+	background-color:#00BFFF;
+	border:0px;
+}
+
+#tbl{
+	margin-top:50px;
+	margin-left:50px;
+	
+}
+
+#addkol{
+	margin:0px;
+	padding:0px;
+	width:50px;
+	height:50px;
+	top: 53px;
+	position:absolute;
+}
+
+#addrow{
+	margin-top:1px;
+	padding:0px;
+	width:50px;
+	height:50px;
+	left: 61px;
+	position:absolute;
+}
+
+form input[type="button"] {
+	margin:0px;
+	padding:0px;
+	background: #FFD700;
+	width: 50px;
+	height: 50px;
+	color: white;
+	border:0px;
+	font-size:18px;
+	-webkit-transition: all 0.9s ease-in-out; 
+	-moz-transition: all 0.9s ease-in-out; 
+	-khtml-transition: all 0.9s ease-in-out; 
+	-o-transition: all 0.9s ease-in-out; 
+	-ms-transition: all 0.9s ease-in-out; 
+	transition: all 0.9s ease-in-out; 
+}
+form input[type="button"]:hover {
+	background: #FFD700;
+	opacity: 0.5;
+	color: white;
+	-webkit-transition: all 0.9s ease-in-out; 
+	-moz-transition: all 0.9s ease-in-out; 
+	-khtml-transition: all 0.9s ease-in-out; 
+	-o-transition: all 0.9s ease-in-out; 
+	-ms-transition: all 0.9s ease-in-out; 
+	transition: all 0.9s ease-in-out; 
+}
+
+#rem_col, #rem_row  {
+	display: none;
+	background: #DF0101;
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-size:18px;
+	-webkit-transition: all 0.9s ease-in-out; 
+	-moz-transition: all 0.9s ease-in-out; 
+	-khtml-transition: all 0.9s ease-in-out; 
+	-o-transition: all 0.9s ease-in-out; 
+	-ms-transition: all 0.9s ease-in-out; 
+	transition: all 0.9s ease-in-out; 
+}
+
+#rem_row{
+	position:absolute;
+	top:0px;
+}
+
+#rem_col{
+	position:absolute;
+	left:8px;
+}
